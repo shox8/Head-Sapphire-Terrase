@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./pages/home";
+import { Block } from "./style";
 
 export default function App() {
   return (
-    <>
-      <Home />
-    </>
+    <Block>
+      <img src={require("../../assets/cover.png")} />
+    </Block>
   );
 }
