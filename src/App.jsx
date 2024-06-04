@@ -4,7 +4,7 @@ import { Block } from "./style";
 export default function App() {
   return (
     <Block>
-      <img src={require("../../assets/cover.png")} />
+      <img src={require("./assets/cover.png")} />
     </Block>
   );
 }
