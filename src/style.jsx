@@ -229,5 +229,117 @@ export const Block = styled.div`
     }
   }
   @media screen and (max-width: 700px) {
+    .image {
+      width: 100%;
+    }
+    .line {
+      flex-wrap: wrap !important;
+      gap: 10px 35px;
+      justify-content: center;
+      p {
+        white-space: nowrap;
+        font-size: 15px;
+      }
+    }
+    section {
+      padding: 10px !important;
+    }
+    .first {
+      img {
+        width: 90%;
+      }
+      .box {
+        width: 90%;
+        left: 10%;
+      }
+    }
+    .second {
+      img {
+        width: 100%;
+      }
+    }
+    .third {
+      .images {
+        padding: 50px 10px;
+        .box {
+          img {
+            width: 40%;
+          }
+        }
+        .box:nth-child(1) img:nth-child(2) {
+          margin: 30px;
+        }
+        .box:nth-child(2) img:nth-child(1) {
+          margin: 30px;
+        }
+      }
+      .image {
+        width: 100%;
+      }
+    }
+    .fourth {
+      .images {
+        flex-direction: column;
+        .image {
+          transform: translateY(0);
+        }
+        .box img {
+          width: 40%;
+        }
+        .box:nth-child(1) img:nth-child(2) {
+          margin: 20px;
+        }
+      }
+    }
+    .fifth {
+      .blog {
+        margin-block: 20px;
+        .box {
+          h1 {
+            text-transform: uppercase;
+            color: #fff;
+            font-size: 50px;
+            margin-top: 65px;
+          }
+          div,
+          img {
+            width: 95%;
+          }
+        }
+        img {
+          width: 100%;
+        }
+      }
+    }
+    .sixth {
+      width: 100%;
+      .images {
+        img:nth-child(1) {
+          width: 70%;
+        }
+        img:nth-child(2) {
+          width: 20%;
+        }
+      }
+    }
+    .seventh,
+    .nineth {
+      .images {
+        justify-content: center;
+        gap: 20px;
+        img:nth-child(1) {
+          width: 20%;
+        }
+        img:nth-child(2) {
+          width: 70%;
+        }
+        .mobile-image {
+          width: 100% !important;
+        }
+      }
+      h1 {
+        font-size: 35px;
+      }
+    }
   }
 `;

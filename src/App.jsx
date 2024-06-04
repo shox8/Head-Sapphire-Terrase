@@ -160,7 +160,7 @@ export default function App() {
           <p>/ DREAM HOME TODAY /</p>
         </div>
         <div className="images">
-          <img src={require("./assets/gallery.png")} />
+          <img src={require("./assets/gallery.png")} className="mobile-image"/>
         </div>
       </section>
       <section className="eighth">
